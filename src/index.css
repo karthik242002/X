@@ -1,0 +1,364 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   background-color: lightskyblue;
+   
+}
+
+.header{
+  display: flex;
+  margin-left: 230px;
+  width: 900px;
+  height: 60px;
+  background-color: black;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 20px;
+  filter:blur(0.4px) brightness(.7);
+  cursor: pointer;
+  
+  
+}
+.home-para{
+ 
+    margin-top: 130px;
+    white-space: nowrap;
+    transform: translateX(-40%);
+    font-size: 15px;
+   
+  
+}
+
+.background-image {
+  
+  width: 400%;
+  margin-top: 10px;
+  height: 500px;
+  margin-right: -300px;
+  margin-left: 60px;
+  background-size: cover;
+  background-position: center;
+   /* Optional: Add a slight dark overlay to improve text visibility */
+}
+.footer{
+   background-color: black;
+   height: 200px;
+   margin-top: 10px;
+   color: white;
+   cursor: pointer;
+}
+.footer p {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.section1{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 20px 30px;
+  
+}
+
+.section1 li{
+  margin-right: 50px;
+  cursor: pointer;
+  
+}
+.section2{
+  display: flex;
+  list-style-type: none;
+  margin: 0 10px;
+
+}
+li:hover{
+  background-color: white;
+  color: darkgray;
+  border-radius: 2px;
+  
+}
+.logo{
+  width: 50px;
+  
+}
+img{
+  margin-left: -80px;
+}
+
+.home-section{
+  display: flex;
+  list-style-type: none;
+  text-align: center;
+  margin-left: 30px;
+  cursor: pointer;
+
+}
+
+.home-image{
+  margin-top: 20px;
+  transform: translateX(70%);
+  font-size: 45px;
+  white-space: nowrap;
+ 
+}
+
+.logo-home1{
+  width: 250px;
+  height: 100px;
+  margin-top: 20px;
+  transform: translateX(230%);
+}
+
+.logo-home3{
+  width: 250px;
+  height: 100px;
+  margin-top: 20px;
+  transform: translateX(60%);
+
+}
+
+.logo-home2{
+
+  width: 250px;
+  height: 100px;
+  margin-top: 20px;
+  transform: translateX(-60%);
+
+}
+
+.logo-home{
+
+  width: 220px;
+  height: 130px;
+  transform: translateX(-200%);
+  margin-top: px;
+
+}
+h1{
+  text-decoration: underline;
+}
+
+.content{
+  width: 300px;
+  height: 200px;
+  transform: translateX(-230%);
+  margin-top: 220px;
+  background-color: blue rgba(0,0,0.3);
+  filter: blur(0.5px) brightness(.7) ;
+  color: blue;
+  font-size: 25px;
+  white-space: nowrap;
+  text-decoration: dashed;
+}
+.content-img{
+  margin-top: -60px; /* Adjust margin as needed */
+  margin-left: -850px; /* Reset margin */
+  align-items: center;
+  border: 3px solid;
+}
+.header-student{
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 30px;
+  font-family: bold;
+}
+.hist-stud{
+justify-content: center;
+ text-align: center;
+ margin-left: -390px;
+ margin-top: 40px;
+}
+
+.student-history{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: -150px;
+}
+input{
+  margin-top: -20px;
+  width: 190px;
+  height: 30px;
+  border: 2px solid;
+  border-radius: 3px;
+  margin-left: 30px;
+}
+textarea{
+  border: 2px solid;
+  margin-top: -15px;
+  width: 350px;
+  height: 100px;
+}
+.hist-stud1{
+  justify-content: center;
+ text-align: center;
+ margin-left: -600px;
+ margin-top: 30px;
+
+}
+table{
+  margin-left: 290px;
+  margin-top: 30px;
+}
+.stud-hist{
+  margin-left: -460px;
+  margin-top: 30px;
+}
+select{
+  width:130px;
+  height: 40px;
+  border: 2px solid;
+  margin-left: 50px;
+}
+.upload{
+  margin-left: 400px;
+}
+.content-home{
+
+  width: 400px;
+  height: 200px;
+  margin-top: -150px;
+  white-space: nowrap;
+  margin-left: -550px;
+
+}
+.photo{
+  width: 150px;
+  height: 140px;
+  border: 2px solid;
+  margin-left: 840px;
+  margin-top: 30px;
+}
+.photo-update{
+  margin-left: 470px;
+  margin-top: 10px;
+}
+i{
+  margin-left: 600px;
+  width: 150px;
+  height: 40px;
+}
+
+.medical-stud{
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+
+/*Home page*/
+
+@media (max-width: 650px) {
+  .header {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: auto;
+    border-radius: 0;
+  
+  }
+  
+  .home-para {
+  
+    font-size: 12px;
+    margin-left: -50px;
+  }
+   
+  .home-image {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: -45px;
+  }
+  
+  .background-image {
+    width: 100%;
+    height: 300px;
+    margin: 0;
+  }
+  
+  .section1, .section2 {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .section1 li {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+  }
+  
+  .logo-home1{
+    
+    width: 70px;
+    height: 50px;
+    margin-top: 70px;
+    transform: translateX(-600%);
+    
+  }
+  .logo-home2{
+    width: 70px;
+   height: 50px;
+   margin-top: 70px;
+   transform: translateX(-700%);
+  
+  }
+  .logo-home{
+   width: 100px;
+   height: 70px;
+   margin-top: 20px;
+   margin-left: -40px;
+ 
+
+}
+.logo-home3{
+   width: 70px;
+   height: 50px;
+   margin-top: 70px;
+   transform: translateX(-300%);
+
+}
+  
+  .content {
+   font-size: 18px;
+   margin-left: 250px;
+   white-space: normal;
+   text-align: center;
+   justify-content: center;/* Center align text */
+  
+}
+.content-img{
+  transform: translateX(150%);
+}
+.content-home {
+  font-size: 12px;
+   transform: translateX(10%);
+   margin-top: 40px;
+
+}
+
+.content-home {
+ 
+  
+}
+.stud-hist{
+  margin-left: -70px;
+}
+.hist-stud{
+  margin-left: -40px;
+}
+.student-history{
+
+}
+}
